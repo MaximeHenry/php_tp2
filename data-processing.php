@@ -3,7 +3,7 @@
     $mail = $_POST['mail'];
     $mdp = $_POST['mdp'];
     $telephone = $_POST['telephone'];
-    $action = $_POST['mailer']
+    $action = $_POST['mailer'];
     if ($action == 'mailer')
     {
         $message = 'Voici votre identifiant: ' . $identifiant . PHP_EOL;
