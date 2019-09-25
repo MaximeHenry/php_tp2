@@ -11,7 +11,7 @@
         <input type="radio" name="civilite" value="Homme">
         <label>Homme</label><br/>
         <input type="radio" name="civilite" value="Femme">
-        <label>Homme</label><br/>
+        <label>Femme</label><br/>
         <label>Mail</label>
         <input type="email" name="mail"><br/>
         <label>Mot de passe</label>
