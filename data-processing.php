@@ -10,6 +10,8 @@
         $message.= 'Votre mot de passe est: ' . $mdp . PHP_EOL;
         $message.= 'Le numéro de téléphone que vous avez fourni est: ' . $telephone . PHP_EOL;
         mail($mail, 'inscription', $message);
+        echo '<strong>Votre formulaire a bien été envoyé. </strong> <br/>';
+        echo '<a href="http://maximehenry.alwaysdata.net/php_tp2/test.php"> Revenir au formulaire </a><br/>';
     }
     else
     {
