@@ -31,7 +31,7 @@
         </select><br/>
         <label>J'accepte les conditions générales</label>
         <input type="checkbox" name="conditions_generales"><br/>
-        <button class="submit" type="submit" action="mailer">Valider</button>
+        <input type="submit" class="submit" action="mailer">
     </form>
 </div>
 <?php end_page() ?>
