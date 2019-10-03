@@ -15,7 +15,11 @@
         echo '<strong>Votre formulaire a bien été envoyé. </strong> <br/>';
         echo '<a href="http://maximehenry.alwaysdata.net/php_tp2/test.php"> Revenir au formulaire </a><br/>';
 
-        $dbLink = mysqli_connect(dbHost, dbLogin, dbPass) or die('Erreur de connexion au serveur : '. mysqli_connect_error());
+        $dbHost = 'mysql-maximehenry.alwaysdata.net';
+        $dbLogin = '189635';
+        $dbPass = 'simiazza';
+
+        $dbLink = mysqli_connect($dbHost, $dbLogin, $dbPass) or die('Erreur de connexion au serveur : '. mysqli_connect_error());
         mysqli_select_db($dbLink, dbBd) or die('Erreur dans la selection de la base : ' . mysqli_error($dbLink));
         $today = date('Y-m-d');
         $query = 'INSERT INTO user (id, pseudo, password, sexe, mail, telephone, pays, date_inscription) VALUES (NULL, \'' . $identifiant . '\',\'' . $mdp  .
