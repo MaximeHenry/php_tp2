@@ -20,5 +20,5 @@
     else
     {
         start_page('erreur');
-        header('Location: https://pornhub.com');
+        header('Location: https://www.youtube.com/watch?v=wM87WxtMuoY');
     }
