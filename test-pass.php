@@ -3,7 +3,7 @@
     $login = $_POST['login'];
     $password = $_POST['password'];
 
-    $query = 'SELECT password FROM user WHERE login = \'' . $login . '\';';
+    $query = 'SELECT password FROM user WHERE pseudo = \'' . $login . '\';';
 
     if(!($dbResult = mysqli_query($dbLink, $query)))
     {
