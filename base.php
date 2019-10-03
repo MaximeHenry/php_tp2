@@ -5,9 +5,9 @@
     $dbBd = 'maximehenry_exercice5';
 
 
-$dbLink = mysqli_connect($dbHost, $dbLogin, $dbPass) or die('Erreur de connexion au serveur : '. mysqli_connect_error());
+    $dbLink = mysqli_connect($dbHost, $dbLogin, $dbPass) or die('Erreur de connexion au serveur : '. mysqli_connect_error());
     mysqli_select_db($dbLink, $dbBd) or die('Erreur dans la selection de la base : ' . mysqli_error($dbLink));
-    $query = 'SELECT id, mail, date FROM user';
+    /*$query = 'SELECT id, mail, date FROM user';
     if(!($dbResult = mysqli_query($dbLink, $query)))
     {
         echo 'Erreur de requete<br/>';
@@ -26,5 +26,5 @@ $dbLink = mysqli_connect($dbHost, $dbLogin, $dbPass) or die('Erreur de connexion
         echo $dbRow['pays'] . '<br/>';
         echo date('d.m.Y', strtotime($dbRow['date_inscription'])) . '<br/>';
         echo '<br/><br/>';
-    }
+    }*/
 ?>
