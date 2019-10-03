@@ -1,5 +1,6 @@
 <?php
     include 'base.php';
+    include 'utils.inc.php';
     $login = $_POST['login'];
     $password = $_POST['password'];
 
