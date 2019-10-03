@@ -15,10 +15,10 @@
     }
     if ($password == $dbResult)
     {
-        header('Location : http://freenoteapp.fr');
+        header('Location: http://freenoteapp.fr');
     }
     else
     {
         start_page('erreur');
-        header('Location : https://pornhub.com');
+        header('Location: https://pornhub.com');
     }
