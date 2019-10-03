@@ -2,7 +2,7 @@
     $dbHost = 'mysql-maximehenry.alwaysdata.net';
     $dbLogin = '189635';
     $dbPass = 'simiazza';
-    $dbBd = 'user';
+    $dbBd = 'maximehenry_exercice5';
 
 
 $dbLink = mysqli_connect($dbHost, $dbLogin, $dbPass) or die('Erreur de connexion au serveur : '. mysqli_connect_error());
